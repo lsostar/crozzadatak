@@ -1,0 +1,65 @@
+.ModalForm {
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 400px;
+  }
+
+  .FormRow {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-size: 14px;
+      font-weight: 600px;
+      margin-bottom: 4px;
+    }
+
+    input {
+      border: 1px solid #333312;
+      border-radius: 6px;
+      width: 100%;
+      line-height: 40px;
+      padding: 0 10px;
+      outline: none;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 30px;
+
+      &:focus {
+        border-color: #f2994a;
+      }
+    }
+
+    .ErrorMessage {
+      font-size: 14px;
+      color: rgb(150, 20, 40);
+      padding-top: 8px;
+    }
+  }
+
+  .FormButton {
+    display: block;
+    text-decoration: none;
+    width: 30%;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #f2994a;
+    border-radius: 6px;
+    background: #f2994a;
+    color: white;
+    transition: ease-in-out 0.3s;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+
+    &:hover {
+      cursor: pointer;
+      border-color: #f2994a;
+      background: white;
+      color: #f2994a;
+    }
+  }
+
+}
+
+

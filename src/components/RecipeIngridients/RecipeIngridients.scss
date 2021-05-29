@@ -1,0 +1,40 @@
+.Recipe {
+    margin-top: 50px;
+    width: 100%;
+  
+    &-Inner {
+      text-align: left;
+  
+      .Servings {
+        display: flex;
+        align-items: center;
+  
+        &-Paragraph {
+          margin-right: 10px;
+        }
+  
+        &-Number {
+          font-weight: 600;
+          font-size: 18px;
+        }
+      }
+  
+      .Ingridients {
+        display: flex;
+        max-width: 30%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        align-items: center;
+  
+        &-Name {
+          flex: 50%;
+          font-weight: 600;
+          text-decoration: underline;
+        }
+  
+        &-Quant {
+          flex: 50%;
+        }
+      }
+    }
+  }

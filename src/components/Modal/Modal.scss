@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+.ModalOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+ 
+  
+
+   .ModalWrapper {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: white ;
+    width: fit-content;
+    margin-top: 180px;
+
+    &-Info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 5px 0 20px 0;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+
+    .Icon-Wrapper{
+      color: #f2994a;
+    }
+
+    
+
+    
+  }
+}

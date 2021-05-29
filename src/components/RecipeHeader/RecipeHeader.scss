@@ -1,0 +1,34 @@
+.DetailHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -80px;
+  
+    @media screen and (min-width: 1280px) {
+      max-width: 993px;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: -80px;
+    }
+  
+    @media screen and (min-width: 1300px) {
+      max-width: 1280px;
+      margin: auto;
+      margin-top: 50px;
+      margin-bottom: -80px;
+    }
+  
+    .ListOfDetails {
+      display: flex;
+  
+      .Details {
+        margin: 0px 15px;
+  
+        &:first-child {
+          list-style: none;
+        }
+      }
+    }
+  }

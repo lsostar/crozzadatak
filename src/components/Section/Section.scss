@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.Section {
+  padding: 60px 15px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .FlexHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-top: 20px;
+
+    .HeartIcon {
+      padding-left: 20px;
+      font-size: 32px;
+      color: #f2994a;
+      padding-top: 8px;
+    }
+  }
+
+  .Title {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 576px) {
+    .Title {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 80px 25px;
+    .Title {
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 993px;
+    margin: 0 auto;
+
+    .Title {
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .Title {
+      font-size: 32px;
+    }
+  }
+}
