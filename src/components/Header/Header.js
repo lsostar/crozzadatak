@@ -40,6 +40,9 @@ const Header = () => {
                 <img className={"User-Image"} src={UserImage} />
                 <p className={"User-Name"}>Lorena</p>
               </div>
+              <NavLink className={"Header-NavItem"} to="/favourites" exact>
+                Favorites
+              </NavLink>
               <NavLink
                 onClick={handleLogout}
                 className={"Header-NavItem"}
@@ -47,9 +50,7 @@ const Header = () => {
               >
                 Logout
               </NavLink>
-              <NavLink className={"Header-NavItem"} to="/favourites" exact>
-                Favourites
-              </NavLink>
+              
             </div>
           )}
         </nav>
