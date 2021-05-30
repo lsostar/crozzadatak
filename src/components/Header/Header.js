@@ -47,6 +47,9 @@ const Header = () => {
               >
                 Logout
               </NavLink>
+              <NavLink className={!Header-NavItem} to = "/favourites" exact>
+                Favorites
+              </NavLink>
               
             </div>
           )}
